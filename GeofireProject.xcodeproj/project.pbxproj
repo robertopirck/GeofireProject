@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41FFB0101F6D921400FF35D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FFB00F1F6D921400FF35D2 /* AppDelegate.swift */; };
+		41FFB0121F6D921400FF35D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FFB0111F6D921400FF35D2 /* ViewController.swift */; };
+		41FFB0151F6D921400FF35D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FFB0131F6D921400FF35D2 /* Main.storyboard */; };
+		41FFB0181F6D921400FF35D2 /* GeofireProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41FFB0161F6D921400FF35D2 /* GeofireProject.xcdatamodeld */; };
+		41FFB01A1F6D921400FF35D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41FFB0191F6D921400FF35D2 /* Assets.xcassets */; };
+		41FFB01D1F6D921400FF35D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FFB01B1F6D921400FF35D2 /* LaunchScreen.storyboard */; };
+		41FFB0281F6D921400FF35D2 /* GeofireProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FFB0271F6D921400FF35D2 /* GeofireProjectTests.swift */; };
+		41FFB0331F6D921400FF35D2 /* GeofireProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FFB0321F6D921400FF35D2 /* GeofireProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41FFB0241F6D921400FF35D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41FFB0041F6D921400FF35D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41FFB00B1F6D921400FF35D2;
+			remoteInfo = GeofireProject;
+		};
+		41FFB02F1F6D921400FF35D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41FFB0041F6D921400FF35D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41FFB00B1F6D921400FF35D2;
+			remoteInfo = GeofireProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41FFB00C1F6D921400FF35D2 /* GeofireProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeofireProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FFB00F1F6D921400FF35D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41FFB0111F6D921400FF35D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41FFB0141F6D921400FF35D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41FFB0171F6D921400FF35D2 /* GeofireProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeofireProject.xcdatamodel; sourceTree = "<group>"; };
+		41FFB0191F6D921400FF35D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41FFB01C1F6D921400FF35D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41FFB01E1F6D921400FF35D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41FFB0231F6D921400FF35D2 /* GeofireProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeofireProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FFB0271F6D921400FF35D2 /* GeofireProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofireProjectTests.swift; sourceTree = "<group>"; };
+		41FFB0291F6D921400FF35D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41FFB02E1F6D921400FF35D2 /* GeofireProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeofireProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FFB0321F6D921400FF35D2 /* GeofireProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofireProjectUITests.swift; sourceTree = "<group>"; };
+		41FFB0341F6D921400FF35D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41FFB0091F6D921400FF35D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FFB0201F6D921400FF35D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FFB02B1F6D921400FF35D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41FFB0031F6D921400FF35D2 = {
+			isa = PBXGroup;
+			children = (
+				41FFB00E1F6D921400FF35D2 /* GeofireProject */,
+				41FFB0261F6D921400FF35D2 /* GeofireProjectTests */,
+				41FFB0311F6D921400FF35D2 /* GeofireProjectUITests */,
+				41FFB00D1F6D921400FF35D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41FFB00D1F6D921400FF35D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41FFB00C1F6D921400FF35D2 /* GeofireProject.app */,
+				41FFB0231F6D921400FF35D2 /* GeofireProjectTests.xctest */,
+				41FFB02E1F6D921400FF35D2 /* GeofireProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41FFB00E1F6D921400FF35D2 /* GeofireProject */ = {
+			isa = PBXGroup;
+			children = (
+				41FFB00F1F6D921400FF35D2 /* AppDelegate.swift */,
+				41FFB0111F6D921400FF35D2 /* ViewController.swift */,
+				41FFB0131F6D921400FF35D2 /* Main.storyboard */,
+				41FFB0191F6D921400FF35D2 /* Assets.xcassets */,
+				41FFB01B1F6D921400FF35D2 /* LaunchScreen.storyboard */,
+				41FFB01E1F6D921400FF35D2 /* Info.plist */,
+				41FFB0161F6D921400FF35D2 /* GeofireProject.xcdatamodeld */,
+			);
+			path = GeofireProject;
+			sourceTree = "<group>";
+		};
+		41FFB0261F6D921400FF35D2 /* GeofireProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				41FFB0271F6D921400FF35D2 /* GeofireProjectTests.swift */,
+				41FFB0291F6D921400FF35D2 /* Info.plist */,
+			);
+			path = GeofireProjectTests;
+			sourceTree = "<group>";
+		};
+		41FFB0311F6D921400FF35D2 /* GeofireProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41FFB0321F6D921400FF35D2 /* GeofireProjectUITests.swift */,
+				41FFB0341F6D921400FF35D2 /* Info.plist */,
+			);
+			path = GeofireProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41FFB00B1F6D921400FF35D2 /* GeofireProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41FFB0371F6D921400FF35D2 /* Build configuration list for PBXNativeTarget "GeofireProject" */;
+			buildPhases = (
+				41FFB0081F6D921400FF35D2 /* Sources */,
+				41FFB0091F6D921400FF35D2 /* Frameworks */,
+				41FFB00A1F6D921400FF35D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeofireProject;
+			productName = GeofireProject;
+			productReference = 41FFB00C1F6D921400FF35D2 /* GeofireProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41FFB0221F6D921400FF35D2 /* GeofireProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41FFB03A1F6D921400FF35D2 /* Build configuration list for PBXNativeTarget "GeofireProjectTests" */;
+			buildPhases = (
+				41FFB01F1F6D921400FF35D2 /* Sources */,
+				41FFB0201F6D921400FF35D2 /* Frameworks */,
+				41FFB0211F6D921400FF35D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41FFB0251F6D921400FF35D2 /* PBXTargetDependency */,
+			);
+			name = GeofireProjectTests;
+			productName = GeofireProjectTests;
+			productReference = 41FFB0231F6D921400FF35D2 /* GeofireProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41FFB02D1F6D921400FF35D2 /* GeofireProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41FFB03D1F6D921400FF35D2 /* Build configuration list for PBXNativeTarget "GeofireProjectUITests" */;
+			buildPhases = (
+				41FFB02A1F6D921400FF35D2 /* Sources */,
+				41FFB02B1F6D921400FF35D2 /* Frameworks */,
+				41FFB02C1F6D921400FF35D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41FFB0301F6D921400FF35D2 /* PBXTargetDependency */,
+			);
+			name = GeofireProjectUITests;
+			productName = GeofireProjectUITests;
+			productReference = 41FFB02E1F6D921400FF35D2 /* GeofireProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41FFB0041F6D921400FF35D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "PEEP TECHNOLOGIES SL";
+				TargetAttributes = {
+					41FFB00B1F6D921400FF35D2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y42AQ74FUQ;
+						ProvisioningStyle = Automatic;
+					};
+					41FFB0221F6D921400FF35D2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y42AQ74FUQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41FFB00B1F6D921400FF35D2;
+					};
+					41FFB02D1F6D921400FF35D2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y42AQ74FUQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 41FFB00B1F6D921400FF35D2;
+					};
+				};
+			};
+			buildConfigurationList = 41FFB0071F6D921400FF35D2 /* Build configuration list for PBXProject "GeofireProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41FFB0031F6D921400FF35D2;
+			productRefGroup = 41FFB00D1F6D921400FF35D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41FFB00B1F6D921400FF35D2 /* GeofireProject */,
+				41FFB0221F6D921400FF35D2 /* GeofireProjectTests */,
+				41FFB02D1F6D921400FF35D2 /* GeofireProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41FFB00A1F6D921400FF35D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FFB01D1F6D921400FF35D2 /* LaunchScreen.storyboard in Resources */,
+				41FFB01A1F6D921400FF35D2 /* Assets.xcassets in Resources */,
+				41FFB0151F6D921400FF35D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FFB0211F6D921400FF35D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FFB02C1F6D921400FF35D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41FFB0081F6D921400FF35D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FFB0121F6D921400FF35D2 /* ViewController.swift in Sources */,
+				41FFB0181F6D921400FF35D2 /* GeofireProject.xcdatamodeld in Sources */,
+				41FFB0101F6D921400FF35D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FFB01F1F6D921400FF35D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FFB0281F6D921400FF35D2 /* GeofireProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41FFB02A1F6D921400FF35D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FFB0331F6D921400FF35D2 /* GeofireProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41FFB0251F6D921400FF35D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41FFB00B1F6D921400FF35D2 /* GeofireProject */;
+			targetProxy = 41FFB0241F6D921400FF35D2 /* PBXContainerItemProxy */;
+		};
+		41FFB0301F6D921400FF35D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41FFB00B1F6D921400FF35D2 /* GeofireProject */;
+			targetProxy = 41FFB02F1F6D921400FF35D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41FFB0131F6D921400FF35D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FFB0141F6D921400FF35D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41FFB01B1F6D921400FF35D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FFB01C1F6D921400FF35D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41FFB0351F6D921400FF35D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41FFB0361F6D921400FF35D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41FFB0381F6D921400FF35D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y42AQ74FUQ;
+				INFOPLIST_FILE = GeofireProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PEEP-TECHNOLOGIES-SL.GeofireProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		41FFB0391F6D921400FF35D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y42AQ74FUQ;
+				INFOPLIST_FILE = GeofireProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PEEP-TECHNOLOGIES-SL.GeofireProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		41FFB03B1F6D921400FF35D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y42AQ74FUQ;
+				INFOPLIST_FILE = GeofireProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PEEP-TECHNOLOGIES-SL.GeofireProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeofireProject.app/GeofireProject";
+			};
+			name = Debug;
+		};
+		41FFB03C1F6D921400FF35D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y42AQ74FUQ;
+				INFOPLIST_FILE = GeofireProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PEEP-TECHNOLOGIES-SL.GeofireProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeofireProject.app/GeofireProject";
+			};
+			name = Release;
+		};
+		41FFB03E1F6D921400FF35D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y42AQ74FUQ;
+				INFOPLIST_FILE = GeofireProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PEEP-TECHNOLOGIES-SL.GeofireProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GeofireProject;
+			};
+			name = Debug;
+		};
+		41FFB03F1F6D921400FF35D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y42AQ74FUQ;
+				INFOPLIST_FILE = GeofireProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PEEP-TECHNOLOGIES-SL.GeofireProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GeofireProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41FFB0071F6D921400FF35D2 /* Build configuration list for PBXProject "GeofireProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FFB0351F6D921400FF35D2 /* Debug */,
+				41FFB0361F6D921400FF35D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41FFB0371F6D921400FF35D2 /* Build configuration list for PBXNativeTarget "GeofireProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FFB0381F6D921400FF35D2 /* Debug */,
+				41FFB0391F6D921400FF35D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41FFB03A1F6D921400FF35D2 /* Build configuration list for PBXNativeTarget "GeofireProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FFB03B1F6D921400FF35D2 /* Debug */,
+				41FFB03C1F6D921400FF35D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41FFB03D1F6D921400FF35D2 /* Build configuration list for PBXNativeTarget "GeofireProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41FFB03E1F6D921400FF35D2 /* Debug */,
+				41FFB03F1F6D921400FF35D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41FFB0161F6D921400FF35D2 /* GeofireProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41FFB0171F6D921400FF35D2 /* GeofireProject.xcdatamodel */,
+			);
+			currentVersion = 41FFB0171F6D921400FF35D2 /* GeofireProject.xcdatamodel */;
+			path = GeofireProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 41FFB0041F6D921400FF35D2 /* Project object */;
+}
