@@ -8,6 +8,9 @@
 
 import UIKit
 import CoreData
+import Firebase
+import GeoFire
+import GooglePlaces
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +19,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        window?.rootViewController = UINavigationController(rootViewController: CollectionViewController())
+        
+        GMSPlacesClient.provideAPIKey("AIzaSyAgX9f2cz9O5pvLSMRLM0Lchbn59uv74fo")
         // Override point for customization after application launch.
         return true
     }
